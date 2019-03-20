@@ -8,6 +8,8 @@
 require('./bootstrap');
 
 window.Vue = require('vue');
+import Buefy from 'buefy'
+Vue.use(Buefy);
 
 /**
  * The following block of code may be used to automatically register your
